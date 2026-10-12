@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazal Mini Games Arcade</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/favicon.png" alt="Amazal Logo" class="logo-icon">
+                <span>Amazal Arcade</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#games" class="nav-link">Games</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <!-- Logo Side -->
+            <div class="hero-logo-container">
+                <div class="logo-wrapper">
+                    <img src="assets/favicon.png" alt="Amazal Logo" class="hero-logo">
+                </div>
+            </div>
+
+            <!-- Content Side -->
+            <div class="hero-content">
+                <h1 class="hero-title">AMAZAL<br>MINI GAMES<br>ARCADE</h1>
+                <p class="hero-subtitle">Mainkan Game Legendaris dari Era 80an hingga Game Modern Terbaru</p>
+                <button class="cta-button" onclick="scrollToGames()">Mainkan Sekarang</button>
+            </div>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <h2 class="section-title">KOLEKSI GAME</h2>
+        
+        <!-- Retro Games -->
+        <div class="games-category">
+            <h3 class="category-title">🕹️ Retro Classics (80-an)</h3>
+            <div class="games-grid" id="retroGames">
+                <!-- Game cards akan ditambahkan via JavaScript -->
+            </div>
+        </div>
+
+        <!-- Modern Mini Games -->
+        <div class="games-category">
+            <h3 class="category-title">🎮 Modern Mini Games</h3>
+            <div class="games-grid" id="modernGames">
+                <!-- Game cards akan ditambahkan via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">Tentang Amazal Arcade</h2>
+        <div class="about-content">
+            <p>Amazal Arcade adalah platform gaming yang menghadirkan koleksi game terbaik dari berbagai era. Mulai dari game retro klasik tahun 80-an yang legendaris, hingga mini games modern yang menghibur.</p>
+            <p>Setiap game dirancang dengan desain yang menarik dan gameplay yang seru. Tidak perlu download, cukup buka browser dan langsung mainkan!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Amazal Store All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Game Modal -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="gameContainer"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
