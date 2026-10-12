@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Amazal Logo</title>
+  <desc id="desc">Amazal arcade logo with yellow geometric A and L.</desc>
+  <circle cx="256" cy="256" r="220" fill="#050505" stroke="#f9d000" stroke-width="12"/>
+  <g transform="translate(72 84)">
+    <path d="M74 300 L168 36 L250 36 L156 300 Z" fill="#f9d000"/>
+    <path d="M175 300 L278 36 L360 36 L256 300 Z" fill="#f9d000"/>
+    <path d="M118 36 L214 36 L132 300 L43 300 Z" fill="#f9d000"/>
+    <path d="M266 46 L314 46 L314 300 L266 300 Z" fill="#f9d000"/>
+    <path d="M266 46 L118 46 L154 0 L317 0 Z" fill="#f9d000" opacity="0.95"/>
+    <path d="M30 300 L312 300 L312 250 L30 250 Z" fill="#f9d000" opacity="0.92"/>
+  </g>
+  <text x="256" y="415" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="56" font-weight="700" fill="#f9d000">Amazal</text>
+</svg>
